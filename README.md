@@ -1,6 +1,6 @@
 # CS52: A Tutorial for Mapbox!
 
-[<img width="981" alt="Mapbox GL gallery" src="docs/pages/assets/gallery.png">](https://www.mapbox.com/gallery/)
+[<img width="981" alt="Mapbox GL gallery" src="img/gallery.png">](https://www.mapbox.com/gallery/)
 
 Today, we will go over the basics of using mapbox, a JavaScript library mainly used for interactive, customizable maps. The tutorial is based loosely off mapbox's [GitHub repo](https://github.com/mapbox/mapbox-gl-js).
 
@@ -20,6 +20,7 @@ By the end of the workshop, you should done the following:
 Let's get started!
 
 First of all, make a mapbox account.
+
 [Make an account](https://www.mapbox.com/signup/)
 
 When you make an account, it should give you your access token. Save this and keep it handy! We will need it later.
