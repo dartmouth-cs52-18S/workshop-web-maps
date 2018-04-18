@@ -8,12 +8,12 @@ Let's get started!
 
 ## Overview
 
-By the end of the workshop, you should done the following:
+By the end of the workshop, you should have done the following:
 * [ ] Make a mapbox account
 * [ ] Have a website with integrated Mapbox
 * [ ] Customize the map
-* [ ]
-* [ ]
+* [ ] ?
+* [ ] ?
 
 ## Creating a mapbox account
 
@@ -27,9 +27,11 @@ When you make an account, it should give you your access token. Save this and ke
 
 ## Forking the repo
 
-Scroll to the top of this page and fork the repo!
+Scroll to the top of this page and fork the repo. We have provided a skeleton of a website that you can insert your map into!
 
 ## Adding a map to the EBA's website!
+
+Let's be honest, we all miss EBA's. Let's help them out by inserting a basic map into their website.
 
 Include the GL JS JavaScript and CSS files in the head of your HTML file.
 
@@ -50,6 +52,8 @@ var map = new mapboxgl.Map({
 });
 </script>
 ```
+
+**Remember to switch out the accessToken with your own.**
 
 Fantastic, now you have a map embedded in the webpage!
 
@@ -80,8 +84,8 @@ Here's a resource for [github markdown](https://guides.github.com/features/maste
 * [X] Make a mapbox account
 * [X] Have a website with integrated Mapbox
 * [X] Customize the map
-* [ ]
-* [ ]
+* [X] ?
+* [X] ?
 
 ## Resources
 
