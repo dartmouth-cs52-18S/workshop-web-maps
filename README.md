@@ -23,7 +23,7 @@ First of all, make a mapbox account.
 
 [Make an account](https://www.mapbox.com/signup/)
 
-[<img width="981" alt="Mapbox Signup" src="img/screenshot-1.jpg">](https://www.mapbox.com/signup/)
+[<img width="981" alt="Mapbox Signup" src="img/screenshot-1.png">](https://www.mapbox.com/signup/)
 
 When you make an account, it should give you your access token. Save this and keep it handy! We will need it later.
 
