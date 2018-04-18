@@ -8,16 +8,51 @@ Let's get started!
 
 ## Overview
 
-By the end of the workshop, you should have the following:
+By the end of the workshop, you should done the following:
+* [ ] Make a mapbox account
 * [ ] Have a website with integrated Mapbox
 * [ ] Customize the map
 * [ ]
 * [ ]
 
-## Setup and Getting Started
+## Creating a mapbox account
 
 Let's get started!
 
+First of all, make a mapbox account.
+[Make an account](https://www.mapbox.com/signup/)
+
+When you make an account, it should give you your access token. Save this and keep it handy! We will need it later.
+
+## Forking the repo
+
+Scroll to the top of this page and fork the repo!
+
+##
+
+Include the GL JS JavaScript and CSS files in the <head> of your HTML file.
+
+```html
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
+```
+
+Add the following code to the <body> of your HTML file.
+
+```html
+<div id='map' style='width: 400px; height: 300px;'></div>
+<script>
+mapboxgl.accessToken = 'REPLACE WITH YOUR OWN';
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v9'
+});
+</script>
+```
+
+
+
+##
 
 ## Step by Step
 
