@@ -2,27 +2,33 @@
 <html>
 <head>
     <meta charset='utf-8' />
-    <title>Display a map</title>
+    <title>Tim's Pizza</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
-    <style>
-        body { margin:0; padding:0; }
-        #map { position:absolute; top:0; bottom:0; width:100%; }
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div id='map' style='width: 400px; height: 300px;'></div>
-<script>
-  mapboxgl.accessToken = 'pk.eyJ1Ijoia2tpbTk2IiwiYSI6ImNqZzRtamVtdzI1eHMyem82d2ZjYzN4a3kifQ.o3QLlgK1PC7ZxciTBStDpw';
-  var map = new mapboxgl.Map({
-      container: 'map', // container id
-      style: 'mapbox://styles/mapbox/streets-v9', // stylesheet location
-      center: [-74.50, 40], // starting position [lng, lat]
-      zoom: 9 // starting zoom
-  });
-</script>
+  <nav>
+    <div class="logo-detail">
+      <img src="img/tim_mohawk.jpeg" id="tim-pic">
+      <a href="#" id="company-name">Tim's Pizza Place</a>
+    </div>
+    <ul>
+      <li>
+        <p>Home</p>
+      </li>
+      <li>
+        <p>About</p>
+      </li>
+      <li>
+        <p>Globalization</p>
+      </li>
+      <li>
+        <p>Order Online</p>
+      </li>
+    </ul>
+  </nav>
 
 </body>
 </html>
