@@ -1,16 +1,24 @@
-# CS52 Workshops:  Mapbox
+# CS52: A Tutorial for Mapbox!
 
-![](http://i.giphy.com/eUh8NINbZf9Ys.gif)
+![](https://media.giphy.com/media/9tA6H1madRvUc/giphy.gif)
 
-Brief motivation here as well as in presentation
+Today, we will go over the basics of using mapbox, a JavaScript library mainly used for interactive, customizable maps. The tutorial is based loosely off mapbox's [GitHub repo](https://github.com/mapbox/mapbox-gl-js).
+[<img width="400" alt="Mapbox" src="docs/pages/assets/logo.png">](https://www.mapbox.com/)
+
+Let's get started!
 
 ## Overview
 
-Summary of what we're about to do.
+By the end of the workshop, you should have the following:
+[ ] Have a website with integrated Mapbox
+[ ] Customize the map
+[ ]
+[ ]
 
-## Setup
+## Setup and Getting Started
 
-Any necessary setup steps
+Let's get started!
+
 
 ## Step by Step
 
