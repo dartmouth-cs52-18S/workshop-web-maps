@@ -29,9 +29,9 @@ When you make an account, it should give you your access token. Save this and ke
 
 Scroll to the top of this page and fork the repo. We have provided a skeleton of a website that you can insert your map into!
 
-## Adding a map to the EBA's website!
+## Adding a map to the website!
 
-Let's be honest, we all miss EBA's. Let's help them out by inserting a basic map into their website.
+Tim has opened up a pizza place. Let's help him out by inserting a basic map into their website so they can expand globally.
 
 Include the GL JS JavaScript and CSS files in the head of your HTML file.
 
