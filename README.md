@@ -23,6 +23,8 @@ First of all, make a mapbox account.
 
 [Make an account](https://www.mapbox.com/signup/)
 
+[<img width="981" alt="Mapbox Signup" src="img/screenshot-1.jpg">](https://www.mapbox.com/signup/)
+
 When you make an account, it should give you your access token. Save this and keep it handy! We will need it later.
 
 ## Forking the repo
@@ -33,14 +35,14 @@ Scroll to the top of this page and fork the repo. We have provided a skeleton of
 
 Tim has opened up a pizza place. Let's help him out by inserting a basic map into their website so they can expand globally.
 
-Include the GL JS JavaScript and CSS files in the head of your HTML file.
+Open up index.html and add the GL JS JavaScript and CSS files in the head of your HTML file.
 
 ```html
 <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js'></script>
 <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
 ```
 
-Add the following code to the body of your HTML file.
+Add the following code to the body.
 
 ```html
 <div id='map' style='width: 400px; height: 300px;'></div>
