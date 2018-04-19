@@ -3,6 +3,15 @@
   margin: 0;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 body {
   color: white;
   font-family: 'Vollkorn', serif;
@@ -16,25 +25,72 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 100px;
+  min-width: 400px;
   padding: 10px;
 }
 
 nav > * {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 #tim-pic {
   height: 80px;
-  padding: 10px;
   margin-right: 20px;
+  border: solid thin white;
 }
 
 #company-name {
   color: white;
-  font-size: 1.2em;
+  font-size: 1.8em;
 }
 
-ul {
-  list-style: none;
+#nav-links > li {
+  margin-right: 20px;
+  font-size: 1.3em;
+}
+
+.hamburger {
+  display: none;
+}
+
+/* adapted from https://www.w3schools.com/howto/howto_css_menu_icon.asp */
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 4px 0;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.announcement-container {
+  margin-top: 10vh;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+
+  #nav-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    order: 1;
+    margin-right: 10px;
+  }
+
+  .hamburger:hover {
+    cursor: pointer;
+  }
+
 }
