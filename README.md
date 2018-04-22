@@ -94,8 +94,9 @@ Add in the following JSON information after the Map code but before the ``` </sc
 ```
 Now we need to choose an icon for our map marker. We've included an image for you, but feel free to find your own.
 Then, add styling for your marker to you ```style.css```:
-```.marker {
-  background-image: url('mapbox-icon.png');
+```
+.marker {
+  background-image: url('img/mapbox-icon.png');
   background-size: cover;
   width: 50px;
   height: 50px;
