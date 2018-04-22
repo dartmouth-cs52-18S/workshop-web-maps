@@ -73,7 +73,7 @@ Add in the following JSON information after the Map code but before the ``` </sc
       coordinates: [-72.288424, 43.703301]
     },
     properties: {
-      title: 'Tim's Pizza Place',
+      title: "Tim's Pizza Place",
       description: 'Hanover, NH'
     }
   },
