@@ -161,6 +161,6 @@ Congrats! Now you are displaying contextual information on top of your marker.
 ## Resources
 
 Our tutorial is based off of Mapbox Tutorials (https://www.mapbox.com/help/tutorials/)
-*Creating a Mapbox GL JS map
-*Add HTML Markers
-*Add Popups
+* Creating a Mapbox GL JS map
+* Add HTML Markers
+* Add Popups
