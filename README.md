@@ -59,6 +59,8 @@ var map = new mapboxgl.Map({
 
 Fantastic, now you have a map embedded in the webpage!
 
+[<img width="981" alt="Mapbox Signup" src="img/map.png">]()
+
 ## Adding a Custom Marker
 The MapPlot reads GeoJSON data to create markers on the map. Let's provide our map with some location data for Tim's Pizza Place. 
 
@@ -117,6 +119,8 @@ geojson.features.forEach(function(marker) {
 });
 ```
 
+[<img width="981" alt="Mapbox Signup" src="img/pin.png">]()
+
 ## Adding Popups to our Markers
 
 Popups are a useful way to display marker specific information on your MapBox. We're going to add some to our markers!
@@ -142,32 +146,9 @@ new mapboxgl.Marker(el)
   .setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
   .addTo(map);
 ```
+Congrats! Now you are displaying contextual information on top of your marker.
 
-
-
-
-
-
-
-
-## Step by Step
-
-* Explanations of the what **and** the why behind each step. Try to include:
-  * higher level concepts
-  * best practices
-
-Remember to explain any notation you are using.
-
-```javascript
-/* and use code blocks for any code! */
-```
-
-![screen shots are helpful](img/screenshot.png)
-
-:sunglasses: GitHub markdown files [support emoji notation](http://www.emoji-cheat-sheet.com/)
-
-Here's a resource for [github markdown](https://guides.github.com/features/mastering-markdown/).
-
+[<img width="981" alt="Mapbox Signup" src="img/popover.png">]()
 
 ## Summary / What you Learned
 
@@ -179,4 +160,7 @@ Here's a resource for [github markdown](https://guides.github.com/features/maste
 
 ## Resources
 
-* cite any resources
+Our tutorial is based off of Mapbox Tutorials (https://www.mapbox.com/help/tutorials/)
+*Creating a Mapbox GL JS map
+*Add HTML Markers
+*Add Popups
