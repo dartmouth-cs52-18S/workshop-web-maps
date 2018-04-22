@@ -154,8 +154,8 @@ Congrats! Now you are displaying contextual information on top of your marker.
 
 * [X] Make a mapbox account
 * [X] Have a website with integrated Mapbox
-* [X] Customize the map
-* [X] ?
+* [X] Add custom markers to map
+* [X] Attach marker-aware popups
 * [X] ?
 
 ## Resources
