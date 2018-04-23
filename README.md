@@ -14,10 +14,13 @@ By the end of the workshop, you should have done the following:
 * [ ] Customized the map
 * [ ] Created a custom style
 
+## Forking the repo
+
+Scroll to the top of this page and fork the repo. We have provided a skeleton of a website that you can insert your map into!
+
+Tim has opened up a pizza place. Let's help him out by inserting a basic map into their website so they can expand globally.
 
 ## Creating a mapbox account
-
-Let's get started!
 
 First of all, make a mapbox account.
 
@@ -27,22 +30,23 @@ First of all, make a mapbox account.
 
 When you make an account, it should give you your access token. Save this and keep it handy! We will need it later.
 
-## Forking the repo
-
-Scroll to the top of this page and fork the repo. We have provided a skeleton of a website that you can insert your map into!
-
-## Adding a map to the website!
-
-Tim has opened up a pizza place. Let's help him out by inserting a basic map into their website so they can expand globally.
-
-Open up index.html and add the GL JS JavaScript and CSS files in the head of your HTML file.
+Select the `Web Maps SDK` and then select `Use the Mapbox CDN`. You'll be given some lines of Javascript code to add to your index.js! They should look like this: 
 
 ```html
 <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js'></script>
 <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
 ```
 
-Add the following code to the body.
+## Adding a map to the website!
+
+Remember those two lines of code? Now open up index.html and add them to the `<head>` of your HTML file. This adds a reference to the Mapbox JavaScript and CSS files that you'll need to create your map!
+
+```html
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
+```
+
+Add the following code to the body, right under the `<h2>` tag. 
 
 ```html
 <div id='map' style='width: 400px; height: 300px;'></div>
@@ -64,7 +68,7 @@ Fantastic, now you have a map embedded in the webpage!
 ## Adding a Custom Marker
 The MapPlot reads GeoJSON data to create markers on the map. Let's provide our map with some location data for Tim's Pizza Place. 
 
-Add in the following JSON information after the Map code but before the ``` </script> ```. We've already dropped a pin on the first location, but you should pick a second location of your liking. Find GPS coordinates using Google maps. (hint: you may have to reverse the coordinates).
+Add in the following JSON information between the map code you just pasted in and the closing ``` </script> ```. We've already dropped a pin on the first location, but you should pick a second location of your liking. Find GPS coordinates using Google maps. (hint: you may have to reverse the coordinates).
 
 ```html
 var geojson = {
