@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
     <meta charset='utf-8' />
     <title>Tim's Pizza</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
@@ -41,6 +43,15 @@
     <div class="announcement-container">
       <h1>World domination coming soon</h1>
       <h2>Tim's is going global! Use the map below to find a location near you.</h2>
+      <div id='map' style='width: 400px; height: 300px;'></div>
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1Ijoic3RvcGljMTMiLCJhIjoiY2pnYmQ1Y3llMXl0ejJ4cWpsbmJrMWtmdiJ9.R1lW4rNrIfO4m1mBx18LNA';
+  var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/stopic13/cjgbgrd0n4mos2rnihvtw2ipr'
+  });
+
+</script>
     </div>
   </div>
 
