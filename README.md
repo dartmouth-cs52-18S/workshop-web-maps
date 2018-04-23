@@ -10,10 +10,10 @@ Let's get started!
 
 By the end of the workshop, you should have done the following:
 * [ ] Make a mapbox account
-* [ ] Have a website with integrated Mapbox
-* [ ] Customize the map
-* [ ] ?
-* [ ] ?
+* [ ] Uploaded a website with integrated Mapbox
+* [ ] Customized the map
+* [ ] Created a custom style
+
 
 ## Creating a mapbox account
 
@@ -66,7 +66,8 @@ The MapPlot reads GeoJSON data to create markers on the map. Let's provide our m
 
 Add in the following JSON information after the Map code but before the ``` </script> ```. We've already dropped a pin on the first location, but you should pick a second location of your liking. Find GPS coordinates using Google maps. (hint: you may have to reverse the coordinates).
 
-```var geojson = {
+```html
+var geojson = {
   type: 'FeatureCollection',
   features: [{
     type: 'Feature',
@@ -94,9 +95,9 @@ Add in the following JSON information after the Map code but before the ``` </sc
 ```
 Now we need to choose an icon for our map marker. We've included an image for you, but feel free to find your own.
 Then, add styling for your marker to you ```style.css```:
-```
+```html
 .marker {
-  background-image: url('img/mapbox-icon.png');
+  background-image: url('mapbox-icon.png');
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -151,13 +152,53 @@ Congrats! Now you are displaying contextual information on top of your marker.
 
 [<img width="981" alt="Mapbox Signup" src="img/popover.png">]()
 
+## Create a Custom Style
+Now we're going to learn how to use MapBox's built in style editor. 
+
+Log onto your newly created MapBox account and go to the "Styles" page.
+
+Create a new style (choose "basic") and name it whatever you'd like.
+
+[<img width="981" alt="Pick Style" src="img/pick_style.png">]()
+
+Select the background layer from the layer list and choose a new color.
+[<img width="981" alt="Mapbox Signup" src="img/map_color.png">]()
+
+EXTRA CREDIT: Play around with the editor and find out how to add an image for the background layer instead of a solid color, like this:
+[<img width="981" alt="Pizza Map" src="img/pizza.png">]()
+
+Follow the same process to edit the water.
+
+[<img width="981" alt="Mapbox Signup" src="img/water_color.png">]()
+
+Now we're going to change the fonts!
+
+Click the filter layers buttom at the top of the layers list, filter by value, and select fonts. Choose Opens Sans Semibold in the resutling list and then select it in the layer list, change the value to Open Sans Bold. 
+
+Select the Text Transform button and chagne the fonts to "All Uppercase"
+
+[<img width="981" alt="Mapbox Signup" src="img/capital.png">]()
+
+When you have all the changes you want to make to your style, select "Publish Style" in the upper right corner. 
+
+Go to mapbox.com/studio/styles and grab the URL for your style. Make sure you change it to public access.
+
+[<img width="981" alt="Mapbox Signup" src="img/publish_style.png">]()
+
+In your map code, change the style code (mapbox://.....) to the URL you copied.
+
+
+Congrats! You've made your first custom map with MapBox!
+
+Make sure you are in the correct directory and type surge to deploy your new webpage. Submit your URL!
+
 ## Summary / What you Learned
 
 * [X] Make a mapbox account
 * [X] Have a website with integrated Mapbox
 * [X] Add custom markers to map
 * [X] Attach marker-aware popups
-* [X] ?
+* [X] Create a custom style and apply it to a map
 
 ## Resources
 
@@ -165,3 +206,4 @@ Our tutorial is based off of Mapbox Tutorials (https://www.mapbox.com/help/tutor
 * Creating a Mapbox GL JS map
 * Add HTML Markers
 * Add Popups
+* Creating a Custom Style
