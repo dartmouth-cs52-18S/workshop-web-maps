@@ -162,9 +162,14 @@ Create a new style (choose "basic") and name it whatever you'd like.
 [<img width="981" alt="Pick Style" src="img/pick_style.png">]()
 
 Select the background layer from the layer list and choose a new color.
+
+
 [<img width="981" alt="Mapbox Signup" src="img/map_color.png">]()
 
+
 EXTRA CREDIT: Play around with the editor and find out how to add an image for the background layer instead of a solid color, like this:
+
+
 [<img width="981" alt="Pizza Map" src="img/pizza.png">]()
 
 Follow the same process to edit the water.
