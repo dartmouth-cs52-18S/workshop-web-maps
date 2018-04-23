@@ -30,7 +30,7 @@ First of all, make a mapbox account.
 
 When you make an account, it should give you your access token. Save this and keep it handy! We will need it later.
 
-Select the `Web Maps SDK` and then select `Use the Mapbox CDN`. You'll be given some lines of Javascript code to add to your index.js! They should look like this: 
+Select the `Web Maps SDK` and then select `Use the Mapbox CDN`. You'll be given some lines of code to add to your index.html! They should look like this: 
 
 ```html
 <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js'></script>
