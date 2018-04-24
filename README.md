@@ -165,6 +165,8 @@ Create a new style (choose "basic") and name it whatever you'd like. We picked `
 
 [<img width="981" alt="Pick Style" src="img/pick_style.png">]()
 
+### Customize Colors
+
 Select the background layer from the layer list and choose a new color.
 
 
@@ -180,6 +182,8 @@ Follow the same process to edit the water.
 
 [<img width="981" alt="Mapbox Signup" src="img/water_color.png">]()
 
+### Customize Fonts
+
 Now we're going to change the fonts!
 
 Click the filter layers buttom at the top of the layers list, filter by value, and select fonts. Choose Opens Sans Semibold in the resutling list and then select it in the layer list, change the value to Open Sans Bold. 
@@ -187,6 +191,8 @@ Click the filter layers buttom at the top of the layers list, filter by value, a
 Select the Text Transform button and chagne the fonts to "All Uppercase"
 
 [<img width="981" alt="Mapbox Signup" src="img/capital.png">]()
+
+### Exporting your custom style
 
 When you have all the changes you want to make to your style, select "Publish Style" in the upper right corner. 
 
