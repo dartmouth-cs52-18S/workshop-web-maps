@@ -157,11 +157,11 @@ Congrats! Now you are displaying contextual information on top of your marker.
 [<img width="981" alt="Mapbox Signup" src="img/popover.png">]()
 
 ## Create a Custom Style
-Now we're going to learn how to use MapBox's built in style editor. 
+Now we're going to learn how to use MapBox's built in style editor. This will allow us to set custom styles for various parts of the map (i.e., color of water, color of roads, color of buildings, font styles). This is useful for when we want to personalize the way our map looks in our website!
 
-Log onto your newly created MapBox account and go to the "Styles" page.
+Log onto your newly created MapBox account and go to the "[Styles](https://www.mapbox.com/studio/styles/)" page.
 
-Create a new style (choose "basic") and name it whatever you'd like.
+Create a new style (choose "basic") and name it whatever you'd like. We picked `Tim's Pizza` to match the title of our website!
 
 [<img width="981" alt="Pick Style" src="img/pick_style.png">]()
 
@@ -199,7 +199,10 @@ In your map code, change the style code (mapbox://.....) to the URL you copied.
 
 Congrats! You've made your first custom map with MapBox!
 
-Make sure you are in the correct directory and type surge to deploy your new webpage. Submit your URL!
+## Deployment
+Make sure you are in the correct directory and type ```surge``` to deploy your new webpage!
+
+NOTE: We're assuming you already have surge installed, if not you will have to type ```npm install -g surge```and then sign up for surge!
 
 ## Summary / What you Learned
 
@@ -212,6 +215,10 @@ Make sure you are in the correct directory and type surge to deploy your new web
 ## Really liked this tutorial? Want to learn more? Here are some extra credit ideas: 
 * Add an image as the background of your map in the Style editor (see the image in the `Create a Custom Style` section)
 * Add a store locator to let users browse all locations of Tim's Pizza (hint [here](https://www.mapbox.com/help/building-a-store-locator/))
+
+### To submit on Canvas
+* [X] Surge url to your deployed site!      
+* [X] (Optional) Any extra credit attempts      
 
 ## Resources
 
