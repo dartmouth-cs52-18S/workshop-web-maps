@@ -101,7 +101,7 @@ Now we need to choose an icon for our map marker. We've included an image for yo
 Then, add styling for your marker to you ```style.css```:
 ```html
 .marker {
-  background-image: url('mapbox-icon.png');
+  background-image: url('img/mapbox-icon.png');
   background-size: cover;
   width: 50px;
   height: 50px;
