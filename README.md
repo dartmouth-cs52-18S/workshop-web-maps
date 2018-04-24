@@ -209,6 +209,10 @@ Make sure you are in the correct directory and type surge to deploy your new web
 * [X] Attach marker-aware popups
 * [X] Create a custom style and apply it to a map
 
+## Really liked this tutorial? Want to learn more? Here are some extra credit ideas: 
+* Add an image as the background of your map in the Style editor (see the image in the `Create a Custom Style` section)
+* Add a store locator to let users browse all locations of Tim's Pizza (hint [here](https://www.mapbox.com/help/building-a-store-locator/)
+
 ## Resources
 
 Our tutorial is based off of Mapbox Tutorials (https://www.mapbox.com/help/tutorials/)
